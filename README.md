@@ -1,2 +1,2 @@
 # TylarCunningham.github.io
-Blog site
+WIP development blog
