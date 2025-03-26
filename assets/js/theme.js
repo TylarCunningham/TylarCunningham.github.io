@@ -12,9 +12,10 @@ function toggleTheme() {
     }
 }
 
-if (currentTheme) {
-    document.documentElement.setAttribute("data-theme", currentTheme);
-}
+// if (currentTheme) {
+//     document.documentElement.setAttribute("data-theme", currentTheme);
+// }
+document.documentElement.setAttribute("data-theme", "light");
 
-const toggleSwitch = document.querySelector("#theme-toggle");
-toggleSwitch.addEventListener("click", toggleTheme, false);
+// const toggleSwitch = document.querySelector("#theme-toggle");
+// toggleSwitch.addEventListener("click", toggleTheme, false);
