@@ -1,0 +1,85 @@
+/* Syntax highlighting :) */
+
+/* 
+ .l = literal
+ .o = operator
+ .x = other
+ .p = punctuation
+ .cm = multiline comment
+ .cp = preprocessor comment
+ .c1 = single-line comment
+ .cs = special comment?
+ .gd = generic deleted?
+ .ge = generic emphasis?
+ .gr = generic error
+ .gh = generic heading
+ .gi = generic inserted
+ .go = generic output
+ .gp = generic prompt
+ .gu = generic subheading
+ .gt = generic traceback
+ ,kc = keyword constant
+ .kd = keyword declaration
+ .kn = keyword namespace
+ .kp = keyword pseudo
+ .kr = keyword reserved
+ .kt = keyword type
+ .ld = literal date
+ .m = literal number
+ .s = literal string
+ .n = name
+ .na = name attribute
+ .nb = name builtin
+ .nc = name class
+ .no = name constant
+ .nd = name decorator
+ .ni = name entity
+ .nf = name function
+ .nl = name label
+ .nn = name namespace
+ .nx = name other
+ .py = name property
+ .nt = name tag
+ .nv = name variable
+ .ow = operator word
+ .w = text whitespace
+ .mf = literal number float
+ .mh = literal number hex
+ .mi = literal number integer
+ .mo = literal number oct
+ .sb = literal string backtick
+ .sd = literal string doc
+ .s2 = literal string double
+ .se = literal string escape
+ .sh = literal string heredoc?
+ .si = literal string interpol?
+ .sx = literal string other
+ .sr = literal string regex
+ .s1 = literal string single
+ .ss = literal string symbol
+ .bp = name builting pseudo
+ .vc = name variable class
+ .vi = name variable instance
+ .i1 = literal number integer long
+*/
+
+/* 
+Basic colour palette:
+#5F634F
+#9BC4CB
+#CFEBDF
+#E2FADB
+#DBEFBC
+*/
+
+.highlight .k {
+    color: #CFEBDF;
+}
+
+.highlight .n {
+    color: #DBEFBC;
+}
+
+.highlight .nf {
+    color: #E2FADB;
+}

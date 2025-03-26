@@ -1,0 +1,119 @@
+/* These attributes should apply to everything using the defaultish.html layout */
+/* This includes the site header and footer */
+
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,300;0,400;0,800;1,100;1,300;1,400;1,800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    font-family: inherit;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-user-drag: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+html {
+    background-color: var(--body-bg);
+}
+
+/* The entirety of the page contents (including header + footer) */
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.25rem;
+}
+
+a {
+    color: var(--clickables-fg);
+}
+
+.site-header {
+    margin: 0;
+    padding: 1.6rem 6rem 1.6rem 6rem;
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+    background-color: var(--site-header-bg);
+    border-bottom: 5px solid var(--bar-colour);
+}
+
+.clickables {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+    text-align: right;
+    display: block;
+    font-size: 24px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 1.5;
+    float: right;
+    text-align: right;
+    display: block;
+}
+nav li {
+    float: left;
+    margin-right: 0.4em;
+}
+nav li a {
+    color: var(--clickables-fg);
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+}
+
+.site-header .separator {
+    user-select: none;
+    opacity: 0;
+}
+
+.site-title {
+    font-size: 2.1rem;
+    letter-spacing: 0.25rem;
+    line-height: 110%;
+    float: left;
+    color: var(--title-header-fg);
+}
+
+footer {
+    margin: 0 auto;
+    padding: 1rem 0 1rem 0;
+    text-align: center;
+    color: var(--title-header-fg);
+    background-color: var(--site-header-bg);
+}
+footer div p {
+    opacity: 50%;
+}
+
+/* Page-specific content */
+main {
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 3rem 0 4rem 0;
+}
+
+/* Category pill display */
+.categories {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.categories .category {
+    margin: 0 0.5rem 0 0;
+    display: block;
+    border-radius: 15px;
+    font-size: 0.7rem;
+    padding: 0 0.8rem;
+    line-height: 1.3rem;
+    cursor: pointer;
+    color: var(--body-bg);
+    background-color: var(--category-colour);
+}
