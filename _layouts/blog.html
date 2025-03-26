@@ -1,0 +1,15 @@
+---
+layout: defaultish
+---
+<section class="article-list">
+  {% for post in site.posts %}
+  <a href="{{site.baseurl}}{{post.url}}">
+    <article class="article">
+      <h2>
+        {{post.title}}
+      </h2>
+      <small class="date">{{post.date | date_to_string}}</small>
+    </article>
+  </a>
+  {% endfor %}
+</section>
