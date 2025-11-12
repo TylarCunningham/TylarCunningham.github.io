@@ -64,6 +64,10 @@
     margin-left: 2rem;
 }
 
+.content a {
+    color: #7f4f7f;
+}
+
 .content pre {
     overflow-x: auto !important;
     padding: 1rem 2rem;
@@ -101,4 +105,8 @@
 }
 .content table code {
     border: none !important;
+}
+
+.content img {
+    max-width: 100%;
 }
