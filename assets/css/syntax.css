@@ -83,3 +83,17 @@ Basic colour palette:
 .highlight .nf {
     color: #E2FADB;
 }
+
+/* Single + multi-line comments */
+.highlight .cm, .highlight .c1 {
+    color: #d7d1dc;
+}
+
+/* Keyword types */
+.highlight .kt {
+    color: #c3f1f3;
+}
+/* Names */
+.highlight .n {
+    color: #d9e0e0;
+}
